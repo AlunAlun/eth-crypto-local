@@ -6,10 +6,14 @@ Browserifies the stuff in main.js into bundle.js which can be used within browse
 
 1. Install node and npm
 
-2. Instally browserify globally with: npm install -g browserify
+2. Clone this repo and navigate to the directory
 
-3. Run: browserify main.js -s freeverse -o bundle.js
+3. Run: npm install
 
-4. Copy bundle.js and reference it in the html of your webapp
+4. Install browserify globally with: npm install -g browserify
 
-5. Call: freeverse.decrypt(...) in client-side javascript
+5. Run: browserify main.js -s freeverse -o bundle.js
+
+6. Copy the newly created bundle.js and reference it in the html of your webapp
+
+7. Call: freeverse.decrypt(<var>) in client-side javascript, where <var> is the encrypted web3 address passed by the Freeverse webmarket as a URL parameter
