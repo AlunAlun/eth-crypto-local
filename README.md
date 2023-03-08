@@ -16,4 +16,4 @@ Browserifies the stuff in main.js into bundle.js which can be used within browse
 
 6. Copy the newly created bundle.js and reference it in the html of your webapp
 
-7. Call: freeverse.decrypt(encryptedWeb3) in client-side javascript, where encryptedWeb3 is the encrypted web3 address passed by the Freeverse webmarket as a URL parameter
+7. Call: freeverse.decrypt(encryptedWeb3) in client-side javascript, where *encryptedWeb3* is the encrypted web3 address passed by the Freeverse webmarket as a URL parameter
